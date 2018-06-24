@@ -22,5 +22,10 @@ def fourth():
     return "fourth"
 
 
+@app.route("/fifth")
+def fifth():
+    return "fifth"
+
+
 if __name__ == "__main__":
     app.run()
