@@ -37,21 +37,6 @@ def seventh():
     return "seventh"
 
 
-@app.route("/eighth")
-def eighth():
-    return "eighth"
-
-
-@app.route("/ninth")
-def ninth():
-    return "ninth"
-
-
-@app.route("/tenth")
-def tenth():
-    return "tenth"
-
-
 if __name__ == "__main__":
     print "Run server"
     app.run()
