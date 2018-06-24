@@ -17,5 +17,10 @@ def third():
     return "third"
 
 
+@app.route("/fourth")
+def fourth():
+    return "fourth"
+
+
 if __name__ == "__main__":
     app.run()
