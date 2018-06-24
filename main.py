@@ -53,4 +53,5 @@ def tenth():
 
 
 if __name__ == "__main__":
+    print "Run server"
     app.run()
